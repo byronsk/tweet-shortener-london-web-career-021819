@@ -20,5 +20,6 @@ end
 
 def word_substituter(tweet)
   arr = tweet.split(" ")
-  arr.collect do |
+  arr.collect do |words|
+    
 end
