@@ -31,7 +31,7 @@ end
  end
  
  def bulk_tweet_shortener(tweets)
-   
+   tweets.each do
      puts word_substituter(tweet)
    end
      
