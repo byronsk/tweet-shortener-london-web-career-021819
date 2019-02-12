@@ -40,6 +40,8 @@ end
    if tweets.size > 140
      word_substituter(tweet)
   end
+else
+  tweet
 end
      
   
