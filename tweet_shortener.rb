@@ -35,5 +35,7 @@ end
      puts word_substituter(tweet)
    end
  end
+ 
+ def 
      
   
