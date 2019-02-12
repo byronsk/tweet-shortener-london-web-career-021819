@@ -20,6 +20,11 @@ end
 
 def word_substituter(tweet)
   arr = tweet.split(" ")
-  arr.collect do |words|
-    if dictionary.keys.include?
+  short = arr.collect do |words|
+    if dictionary.keys.include?(words)
+      dictionary[words]
+    else
+      words
+    end
 end
+ short.join(" ")
